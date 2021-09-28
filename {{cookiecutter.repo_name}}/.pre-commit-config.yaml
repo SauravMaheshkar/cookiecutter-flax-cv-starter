@@ -30,7 +30,7 @@ repos:
       - id: pytest-check
         name: pytest-check
         entry: pytest
-        language: system
+        language: python
         additional_dependencies: [pre-commit, pytest]
         pass_filenames: false
         always_run: true
